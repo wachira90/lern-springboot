@@ -76,3 +76,25 @@ echo %MAVEN_ARGS%
 |mvn dependency:tree -Dverbose -Dincludes=com.fasterxml.jackson.core	|Prints out the dependencies from your project which depend on the com.fasterxml.jackson.core artifact. Includes repeated, transitive dependencies.|
 |mvn dependency:build-classpath	|Prints out the classpath needed to run your project (application) based on the dependencies configured in the pom.xml file.|
 
+## ADD MAVEN COMPLIER PLUGIN pom.xml
+
+```
+<project ...>
+	...
+	<build>
+		...
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+					<fork>true</fork>
+					<executable>C:\Program Files\Java\jdk1.7.0_79\bin\javac</executable>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	...
+</project>
