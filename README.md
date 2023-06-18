@@ -98,3 +98,10 @@ echo %MAVEN_ARGS%
 	</build>
 	...
 </project>
+```
+
+##  Eclipse add jre
+
+```
+Eclipse, click on Windows -> Preferences -> Java -> Installed JREs
+```
