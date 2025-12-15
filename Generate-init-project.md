@@ -1,5 +1,7 @@
 # **Generate Spring Boot Initial Project** 
 
+![GENERATE PROJECT](spring.png)
+
 ตามภาพที่คุณส่งมา โดยจะอธิบายความหมายของแต่ละช่องและเหตุผลในการเลือกค่าเหล่านั้น
 
 ---
